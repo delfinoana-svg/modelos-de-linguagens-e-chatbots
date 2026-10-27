@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Funcionam?</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Conheça os Modelos de Linguagem e Chatbots</h1>
+
+    <nav>
+        <a href="index.html">O que são?</a> |
+        <a href="como-funcionam.html">Como funcionam?</a> |
+        <a href="aplicacoes.html">Aplicações</a> |
+        <a href="limites-desafios.html">Limites e Desafios</a> |
+        <a href="referencias.html">Referências</a>
+    </nav>
+
+</header>
+
+<main>
+
+<h2>Como os LLMs funcionam?</h2>
+
+<p>
+Diversos dos modelos de linguagem existentes atualmente funcionam através de um processo de pré-treinamento autossupervisionado. Esse é um processo no qual o modelo adquire e desenvolve sua capacidade de reconhecer e trabalhar com padrões dentro dos prompts, tentando prever o que vem a seguir em uma sequência de texto. Os modelos de IA fazem isso com base no contexto apresentado durante a interação. Quando interagimos com um modelo, ele avalia esse contexto para responder da melhor maneira possível. A IA pode buscar o conhecimento relevante aprendido durante o pré-treinamento ou, em alguns casos, utilizar mecanismos de busca ou bancos de dados para gerar a resposta.
+</p>
+
+
+<h2>Funcionamento</h2>
+
+<div class="fluxograma">
+
+    <div class="etapa">
+
+        <h3>Arquitetura</h3>
+
+        <p>
+            Muitos dos modelos de IA que podem ser encontrados atualmente trabalham com a autorregressão: geram texto um "pedaço" por vez, o que chamamos de token, enquanto usam as palavras anteriores como fonte de contexto. Essa arquitetura é baseada em Transformers e utiliza mecanismos de atenção para identificar relações entre palavras.
+        </p>
+
+    </div>
+
+    <div class="seta">↓</div>
+
+    <div class="etapa">
+
+        <h3>Evolução da precisão</h3>
+
+        <p>
+            Com o passar do tempo, a capacidade de absorção de conhecimento dos modelos de IA aumenta ainda mais, permitindo que mais padrões linguísticos sejam aprendidos durante o treinamento. Isso, consequentemente, os torna cada vez mais precisos.
+        </p>
+
+    </div>
+
+    <div class="seta">↓</div>
+
+    <div class="etapa">
+
+        <h3>Tokens</h3>
+
+        <p>
+            Os tokens, que são obtidos da entrada, são usados pelo modelo para calcular a probabilidade de diferentes continuações para o texto recebido e escolher aquela que for mais adequada ao contexto usando a inferência.
+        </p>
+
+    </div>
+
+    <div class="seta">↓</div>
+
+    <div class="etapa">
+
+        <h3>Inferência</h3>
+
+        <p>
+            Esse é o processo que define como o modelo lida com padrões e instruções recebidas, ou seja, a maneira como usamos a IA pode requerer que um dos métodos abaixo seja utilizado, dependendo da entrada recebida.
+        </p>
+
+        <ul>
+            <li><strong>Poucos disparos:</strong> o modelo recebe uma instrução e vários exemplos como entrada, sabendo qual padrão deve seguir.</li>
+
+            <li><strong>Um disparo:</strong> o modelo recebe apenas um exemplo da tarefa e identifica o padrão.</li>
+
+            <li><strong>Zero disparos:</strong> o modelo realiza a tarefa sem qualquer exemplo, utilizando apenas a linguagem natural e o conhecimento adquirido.</li>
+        </ul>
+
+        <p>
+            É importante lembrar que, nessa etapa, o modelo não está adquirindo conhecimento, apenas lidando com os diferentes tipos de entrada que pode receber.
+        </p>
+
+    </div>
+
+</div>
+
+<h2>Exemplos dos principais modelos</h2>
+
+<div class="timeline">
+
+<div class="card">
+
+<h3>ChatGPT</h3>
+
+<p>
+Destaca-se na organização de informações, traduções, geração de código e criação de conteúdo. É bastante versátil para tarefas do dia a dia e possui recursos avançados para geração de imagens.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Gemini</h3>
+
+<p>
+Além de produzir conteúdo e resolver problemas, possui integração com serviços do Google, como Gmail, Docs e Meet, tornando-se uma ferramenta bastante útil para pesquisas e produtividade.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Claude</h3>
+
+<p>
+É voltado para tarefas mais técnicas, com foco em raciocínio e programação. Costuma produzir respostas bastante precisas e apresenta menor tendência a alucinações.
+</p>
+
+</div>
+
+</div>
+
+</main>
+
+<footer>
+
+<p><strong>Desenvolvido por:</strong></p>
+
+<p>👤 Ana Clara Delfino | delfino.ana@discente.ufma.br</p>
+
+<p>👤 João Victor Diniz | diniz.joao@discente.ufma.br</p>
+
+<p>👤 Juliana Sodré | sodre.juliana@discente.ufma.br</p>
+
+</footer>
+
+</body>
+</html>
